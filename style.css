@@ -63,6 +63,12 @@ body {
   100%{transform: translateY(10px);}
 }
 
+/*--------------User info-----------*/
+
+.navbar a {
+  color: #ccc;
+}
+
 /*-----------------About------------*/
 
 .about {
@@ -72,6 +78,15 @@ body {
 
 .profile-img {
   height: 400px;
+  border-radius: 50px;
+}
+
+.profile-img:hover {
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  transition: .8s
 }
 
 .nav-bar {
@@ -104,6 +119,11 @@ body {
 
 .navbar-link {
   color: #fff !important;
+}
+
+.skills-bar {
+  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .skills-bar p {
@@ -310,6 +330,8 @@ body {
   margin-top: 5px;
   color: #fff;
   background: #000;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 
 .social-icons ul li:hover {
